@@ -2,7 +2,7 @@
   "name": "liyunde/color",
   "description": "color for php cli console,可以配置 php控制台文字颜色",
   "type": "library",
-  "minimum-stability":"RC",
+  "minimum-stability":"stable",
   "require": {
     "php": "~5.4|~7.0"
   },
@@ -14,13 +14,13 @@
     {
       "name": "liyunde",
       "email": "liyunde@liyunde.com",
-      "homepage": "http://my.liyunde.com/",
+      "homepage": "https://my.liyunde.com",
       "role": "Developer"
     }
   ],
   "autoload": {
     "psr-4": {
-      "LZ\\": "src/LZ"
+      "": "src/"
     }
   },
   "autoload-dev": {
